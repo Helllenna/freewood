@@ -3,8 +3,9 @@
     --second-text-color: #FFFFFF;
     --main-h-color: #303030;
     --main-focus-color: #A9A32A;
+    --main-bg-color: #FFFFFF;
 
-    --seconder-bg-color:#2F303A;
+    /* --seconder-bg-color:#2F303A;
     --main-btn-color: #2196F3;
     --seconder-btn-color: #000000;
     --third-btn-color: #212121;
@@ -12,7 +13,7 @@
     --third-bg-color:#F5F5F5;
     --fourth-bg-color: #F5F4FA;
     --soc-color: #AFB1B8;
-    --main-gap: 30px;
+    --main-gap: 30px; */
 }
 
 h1,
@@ -46,7 +47,7 @@ a {
 
 
 body {
-    font-family: PT Sans, sans-serif;
+    font-family: Noto Sans, sans-serif;
     color: var(--main-text-color);
     box-sizing: border-box;
 }
@@ -66,4 +67,51 @@ body {
 
 /* header */
 
+/* main */
 
+.hero {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/hero_bg.jpg);
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.container-hero {
+    text-align: center;
+    color: var(--second-text-color);
+
+}
+.logo {
+
+}
+
+.hero-up-text {
+    font-size: 18px;
+    line-height: 1.3888;
+}
+
+.hero-title {
+    font-size: 64px;
+    line-height: 1.3594;
+    font-variant: small-caps;
+    /* border: 1px solid #FFFFFF; */
+
+}
+
+.hero-title2 {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.3571;
+}
+
+.hero-btn {
+
+}
+
+.hero-consult {
+    background-color: var(--main-bg-color);
+}
