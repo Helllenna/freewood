@@ -1,13 +1,14 @@
 :root{
-    --main-bg-color: #FFFFFF;
+    --main-text-color: #868585;
+    --second-text-color: #FFFFFF;
+    --main-h-color: #303030;
+    --main-focus-color: #A9A32A;
+
     --seconder-bg-color:#2F303A;
     --main-btn-color: #2196F3;
     --seconder-btn-color: #000000;
     --third-btn-color: #212121;
     --fourth-btn-color: #FFFFFF;
-    --main-h-color: #212121;
-    --main-text-color: #757575;
-    --seconder-text-color: #FFFFFF;
     --third-bg-color:#F5F5F5;
     --fourth-bg-color: #F5F4FA;
     --soc-color: #AFB1B8;
